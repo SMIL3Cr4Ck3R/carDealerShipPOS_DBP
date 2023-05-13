@@ -33,12 +33,12 @@
                <children>
                   <ImageView fitHeight="48.0" fitWidth="78.0" layoutX="10.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="F:\university\Season 3 Chap 1\COMP333-DATABASE\Project\CarDealershipDataBaseProject\carDealerShipNew\src\main\resources\salesmanUIResources\icons\newLogo-removebg-preview.png" />
+                        <Image url="@../../salesmanUIResources/icons/newLogo-removebg-preview.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="25.0" fitWidth="129.0" layoutX="90.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="F:\university\Season 3 Chap 1\COMP333-DATABASE\Project\CarDealershipDataBaseProject\carDealerShipNew\src\main\resources\salesmanUIResources\icons\Untitled-removebg-preview.png" />
+                        <Image url="@../../salesmanUIResources/icons/Untitled-removebg-preview.png" />
                      </image>
                   </ImageView>
                </children>
