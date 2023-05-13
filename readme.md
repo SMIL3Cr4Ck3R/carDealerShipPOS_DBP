@@ -3,4 +3,4 @@ java_Version = " java version "18.0.1" 2022-04-19Java(TM) SE Runtime Environment
 
 javaFX_Version  = "JavaFX runtime of version 17.0.1"
 
-![Image of Project](C:\Users\admin\Desktop\Study\DATABASE PROJECT SCREENSHOTS\13.jpg)
+![Image of Project](/screenshots/13.jpg)
