@@ -1,6 +1,7 @@
 package prj.cardealershipnew.Vehicles;
 
 import javafx.beans.binding.Bindings;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -32,43 +33,43 @@ public class CarDetailss {
 
     private double x = 0;
     private double y = 0;
-
+    @FXML
     private Label carColor = new Label("Black");
-
+    @FXML
     private Label carDrivenMi = new Label("100K Mi.");
-
+    @FXML
     private ImageView carLogoImage = new ImageView(new Image("F:\\university\\Season 3 Chap 1\\COMP333-DATABASE\\Project\\CarDealershipDataBaseProject\\carDealerShipNew\\src\\main\\resources\\salesmanUIResources\\images\\cars_images\\carLogos\\bmw_48px.png"));
-
+    @FXML
     private Label carName = new Label("Porsche 911");
-
+    @FXML
     private Label carNameBanner = new Label("Porsche 911");
-
+    @FXML
     private Label carPrice = new Label("$57,888");
-
+    @FXML
     private Text engineCC  = new Text("Text");
-
+    @FXML
     private Text engineFuelType =  new Text("Text");
-
+    @FXML
     private Text gearType =  new Text("Text");
-
+    @FXML
     private Text horsePower = new Text("Text");
-
+    @FXML
     private Label manuFacturePlace = new Label("Text");
-
+    @FXML
     private Text manufacturerName =  new Text("Text");
-
+    @FXML
     private ImageView pickedCarImage = new ImageView("F:\\university\\Season 3 Chap 1\\COMP333-DATABASE\\Project\\CarDealershipDataBaseProject\\carDealerShipNew\\src\\main\\resources\\salesmanUIResources\\images\\cars_images\\BHq99JoKd7rcwbH-BMW-X5-Transparent-Background-removebg-preview.png");
-
+    @FXML
     private Text vinNumber =  new Text("WP0AB0918HSt23493");
-
+    @FXML
     private Label yearReleased = new Label("1988");
-
+    @FXML
     private Button editInfo = new Button("Edit Info");
-
+    @FXML
     private Button purchaseCar  = new Button("Purchase");
-
+    @FXML
     private static Stage stage;
-
+    @FXML
 
     static String cloneCarID ;
 
@@ -405,7 +406,7 @@ public class CarDetailss {
         gearType.setWrappingWidth(222.14399909973145);
     }
 
-
+    @FXML
     void draggedScene(MouseEvent event) {
 
         Node node = (Node) event.getSource();
@@ -416,6 +417,7 @@ public class CarDetailss {
 
     }
 
+    @FXML
     void pressedOnScene(MouseEvent event) {
 
         x = event.getSceneX();
