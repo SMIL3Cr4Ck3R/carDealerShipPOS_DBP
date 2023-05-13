@@ -1,0 +1,276 @@
+.mainAnchor {
+
+    -fx-background-color: linear-gradient(#ffa69e,#861657);
+   /* -fx-border-color: #A5A5A5;
+    -fx-border-style: solid;
+    -fx-border-radius: 50;*/
+    -fx-border-width: 1;
+}
+
+
+.leftVbox {
+
+    -fx-background-color:linear-gradient( #ffa69e,#861657);
+    /*linear-gradient(315deg, #0cbaba 0%, #380036 74%);z*/
+    -fx-border-color: #000000;
+    -fx-border-width: 0px 0.1px 0px 0px;
+    -fx-border-radius: 17px 0px 0px 17px ;
+    -fx-background-radius: 20px 0px 0px 20px ;
+
+}
+
+.exitButton {
+
+    -fx-background-color : #B54E73;
+    -fx-background-radius:  0px 3px 3px 0px;
+    -fx-border-radius :   0px 3px 3px 0px;
+
+
+}
+
+.exitButton:hover {
+
+    -fx-background-color : #FFECEC;
+    -fx-text-fill: #FC4E4E;
+}
+
+
+
+
+.logoAnchor {
+
+    -fx-background-color : #E76F66;
+    -fx-background-radius: 20px ;
+
+}
+
+.logoIV {
+
+    -fx-background-color : transparent;
+    -fx-background-radius: 10px;
+    -fx-border-radius : 10px ;
+
+}
+
+.searchHBox {
+
+    -fx-background-color : #F8F8F7;
+    -fx-background-radius: 10px;
+    -fx-border-radius : 10px ;
+
+}
+
+.loginsHBox {
+
+    -fx-background-color : #ECECEB;
+    -fx-background-radius: 10px 0px 0px 10px;
+    -fx-border-radius : 10px 0px 0px 10px ;
+
+
+}
+
+.searchBar{
+    -fx-background-color : #F8F8F7;
+    -fx-background-radius: 10px;
+    -fx-border-radius : 10px ;
+
+
+}
+
+
+
+.sideButtons {
+
+    -fx-background-color : #E76F66;
+    -fx-background-radius : 17px;
+    -fx-border-radius : 13px;
+
+}
+
+.aboutBox {
+
+    -fx-background-color : #E76F66;
+    -fx-background-radius : 17px;
+    -fx-border-radius : 13px;
+    -fx-border-insets: 0.5;
+
+}
+
+.sideButtons:hover {
+
+    -fx-background-color : #F09D22  ;
+    -fx-background-radius : 17px;
+    -fx-border-radius : 13px;
+    -fx-border-insets: 0.5;
+    -fx-border-color : #F09D22;
+}
+
+.centerPane {
+
+    -fx-background-color : rgba(0, 39, 39, 0.3);
+    -fx-background-radius : 23  ;
+    -fx-border-radius :  23   ;
+    -fx-background-insets: 5;
+
+}
+
+.scroll-bar:vertical {
+        -fx-background-color : transparent;
+        -fx-background-radius : 10;
+        -fx-border-radius : 10 ;
+
+}
+
+.addCarDialogVB{
+
+    -fx-background-color :linear-gradient( #ffa69e, #ac3e7b);
+    -fx-background-radius : 20;
+    -fx-border-radius : 20;
+    -fx-border-color: black;
+
+}
+
+.carDialogTextFields {
+
+    -fx-background-color: transparent;
+    -fx-border-color : #5b4343;
+    -fx-border-width:  0px 0px 1px 0px;
+    -fx-text-fill: #000000;
+
+}
+.carDialogButtons {
+
+    -fx-background-color: #D67D86;
+    -fx-border-color : #d7d7d7;
+    -fx-background-radius: 7;
+    -fx-border-radius : 7;
+
+}
+
+.carDialogButtons:hover {
+
+    -fx-background-color: #AA89C0;
+    -fx-background-radius: 7;
+    -fx-border-radius : 7;
+
+}
+
+.scroll-pane{
+    -fx-background-color:transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.aboutUsDialog {
+
+    -fx-background-color: linear-gradient(#ffa69e,#861657);
+    -fx-border-color: black;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-background-radius: 10;
+
+}
+
+.carDetailsVBox {
+
+    -fx-background-color :linear-gradient( #ffa69e,#861657);
+    -fx-background-radius : 15;
+    -fx-border-radius : 15 ;
+    -fx-border-color: black;
+
+}
+
+.detailsBox  {
+
+    -fx-background-radius: 25px 25px 15px 15px;
+    -fx-background-color: white;
+}
+
+.detailsBordersBox {
+
+    -fx-background-color: #EBEFF8;
+    -fx-border-color: #EBEFF8;
+    -fx-border-radius : 10 ;
+    -fx-background-radius: 10;
+}
+.detailsButtonsBox {
+
+    -fx-background-color: #EBEFF8;
+    -fx-border-color: #bcbcbc;
+    -fx-border-radius : 10 ;
+    -fx-background-radius: 10;
+}
+.detailsButtonsBox:hover {
+
+    -fx-background-color: #d1caca;
+    -fx-border-color: #bcbcbc;
+    -fx-border-radius : 10 ;
+    -fx-background-radius: 10;
+}
+
+.invoiceBackAnchor {
+
+    -fx-background-color: #F7F7F7;
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+    -fx-border-color: black;
+    -fx-border-width: 0.5;
+
+}
+
+.innerVboxInvoice {
+
+    -fx-border-color: #FFFFFD;
+    -fx-background-color: #FFFFFD;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-width: 0.5;
+
+}
+
+.invIDStyle {
+
+    -fx-background-color : #F7F7F7;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-width: 0.5;
+    -fx-border-color: #d4d4cd;
+
+}
+
+.logoStyle {
+
+    -fx-background-color : #efeeee;
+
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-width: 0.5;
+    -fx-border-color: #efeeee;
+
+}
+
+.printInvoiceStyle {
+
+    -fx-border-color: #E48C8E;
+    -fx-background-color: #E48C8E;
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+    -fx-text-fill: white;
+
+}
+
+.saleIDClicked {
+
+    -fx-border-color :  black;
+    -fx-border-width :  0px 0px 0px 1px;
+
+}
+.saleIDClicked:hover {
+
+    -fx-background-color: #ECECEB;
+    -fx-border-color :  black;
+    -fx-border-width :  0px 0px 0px 1px;
+
+}

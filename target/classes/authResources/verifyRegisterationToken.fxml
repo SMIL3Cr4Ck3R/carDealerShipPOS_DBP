@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="424.0" prefWidth="600.0" styleClass="verifyAnchorMain" stylesheets="@../styles/loginPageStyle.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prj.cardealershipnew.LoginAuthentication.VerifyRegistrationTokenController">
+   <children>
+      <Label layoutX="93.0" layoutY="13.0" text="Verify your email address">
+         <font>
+            <Font name="Agency FB Bold" size="47.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="79.0" text="We emailed you a four-digit code to " textFill="#90959e">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="emailTF" layoutX="330.0" layoutY="79.0" text="medbmt111@gmail.com" textFill="#90959e">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="144.0" layoutY="97.0" text="Please Check your email and insert the code down below" textFill="#90959e" />
+      <HBox alignment="CENTER" layoutX="38.0" layoutY="130.0" prefHeight="163.0" prefWidth="526.0" spacing="10.0">
+         <children>
+            <TextField fx:id="fstDigitTF" alignment="CENTER" prefHeight="151.0" prefWidth="118.0" styleClass="verifyTextFields">
+               <font>
+                  <Font name="Barlow Condensed Regular" size="74.0" />
+               </font>
+               <padding>
+                  <Insets right="3.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="scdDigitTF" alignment="CENTER" prefHeight="151.0" prefWidth="118.0" styleClass="verifyTextFields">
+               <font>
+                  <Font name="Barlow Condensed Regular" size="74.0" />
+               </font>
+               <padding>
+                  <Insets right="3.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="thrdDigitTF" alignment="CENTER" prefHeight="151.0" prefWidth="118.0" styleClass="verifyTextFields">
+               <font>
+                  <Font name="Barlow Condensed Regular" size="74.0" />
+               </font>
+               <padding>
+                  <Insets right="3.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="frthDigitTF" alignment="CENTER" prefHeight="151.0" prefWidth="118.0" styleClass="verifyTextFields">
+               <font>
+                  <Font name="Barlow Condensed Regular" size="74.0" />
+               </font>
+               <padding>
+                  <Insets right="3.0" />
+               </padding>
+            </TextField>
+         </children>
+      </HBox>
+      <Button layoutX="212.0" layoutY="340.0" mnemonicParsing="false" onAction="#verifyButtonClicked" prefHeight="61.0" prefWidth="191.0" styleClass="verifyButton" text="Verify Account" textFill="#3cb7e4">
+         <font>
+            <Font name="Barlow Condensed Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="565.0" layoutY="8.0" mnemonicParsing="false" onAction="#closeAction" prefHeight="16.0" prefWidth="19.0" styleClass="closeButton" stylesheets="@../styles/loginPageStyle.css" text="X" textAlignment="CENTER">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="isNotValidLB" layoutX="220.0" layoutY="306.0" textFill="#ff0707">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

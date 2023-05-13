@@ -1,0 +1,39 @@
+.vbox {
+
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+
+}
+
+.scroll-pane{
+    -fx-background-color:transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.centerPane {
+
+    -fx-background-color : rgba(0, 39, 39, 0.3);
+    -fx-background-radius : 25px ;
+    -fx-border-radius : 25px ;
+    -fx-background-insets: 5;
+
+}
+
+.scroll-bar:vertical{
+    -fx-background-color : transparent;
+    -fx-background-radius : 10;
+    -fx-border-radius : 10 ;
+
+}
+
+.scroll {
+
+-fx-background-color: transparent;
+-fx-border-color: transparent ;
+-fx-border-radius: 10 ;
+-fx-background-radius: 10 ;
+
+}

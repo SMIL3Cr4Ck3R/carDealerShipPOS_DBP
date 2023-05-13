@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxWidth="991.0" minWidth="970.0" onMouseDragged="#draggedScene" onMousePressed="#pressedOnScene" prefHeight="604.0" prefWidth="985.0" style="-fx-background-radius: 19;" styleClass="mainAnchor" stylesheets="@../../styles/salemanUIStyle.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prj.cardealershipnew.salesman.SalemanUIController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutY="-2.0" prefHeight="606.0" prefWidth="241.0" spacing="8.0" styleClass="leftVbox" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="750.0" AnchorPane.topAnchor="-2.0">
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+         <children>
+            <AnchorPane prefHeight="43.0" prefWidth="225.0" styleClass="logoAnchor">
+               <children>
+                  <ImageView fitHeight="48.0" fitWidth="78.0" layoutX="10.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="F:\university\Season 3 Chap 1\COMP333-DATABASE\Project\CarDealershipDataBaseProject\carDealerShipNew\src\main\resources\salesmanUIResources\icons\newLogo-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="129.0" layoutX="90.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="F:\university\Season 3 Chap 1\COMP333-DATABASE\Project\CarDealershipDataBaseProject\carDealerShipNew\src\main\resources\salesmanUIResources\icons\Untitled-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.8549019694328308" green="0.8549019694328308" blue="0.8549019694328308" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </AnchorPane>
+            <Region prefHeight="11.0" prefWidth="256.0" />
+            <Group>
+               <children>
+                  <Button maxHeight="38.0" maxWidth="180.0" mnemonicParsing="false" onAction="#dashboardButtonAction" prefHeight="38.0" prefWidth="237.0" styleClass="sideButtons" text=" Dashboard">
+                     <font>
+                        <Font name="Barlow Condensed Black" size="17.0" />
+                     </font>
+                     <effect>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.8549019694328308" green="0.8549019694328308" blue="0.8549019694328308" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Button>
+                  <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="21.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8_dashboard_26px_1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group>
+               <children>
+                  <Button maxHeight="38.0" maxWidth="180.0" mnemonicParsing="false" onAction="#carButtonAction" prefHeight="38.0" prefWidth="180.0" styleClass="sideButtons" text="   Cars &amp; vehicles">
+                     <font>
+                        <Font name="Barlow Condensed Black" size="17.0" />
+                     </font>
+                     <effect>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.8549019694328308" green="0.8549019694328308" blue="0.8549019694328308" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                     <padding>
+                        <Insets left="28.0" />
+                     </padding>
+                  </Button>
+                  <ImageView fitHeight="32.0" fitWidth="43.0" layoutX="18.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8_carpool_30px.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group>
+               <children>
+                  <Button maxHeight="38.0" maxWidth="180.0" mnemonicParsing="false" onAction="#customersButtonAction" prefHeight="38.0" prefWidth="180.0" styleClass="sideButtons" text="Customers">
+                     <font>
+                        <Font name="Barlow Condensed Black" size="17.0" />
+                     </font>
+                     <effect>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.8549019694328308" green="0.8549019694328308" blue="0.8549019694328308" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Button>
+                  <ImageView fitHeight="30.0" fitWidth="40.0" layoutX="18.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/customer_30px.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group>
+               <children>
+                  <Button maxHeight="38.0" maxWidth="180.0" mnemonicParsing="false" onAction="#invoicesButtonAction" prefHeight="38.0" prefWidth="180.0" styleClass="sideButtons" text="Invoices &amp; History">
+                     <font>
+                        <Font name="Barlow Condensed Black" size="17.0" />
+                     </font>
+                     <effect>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.8549019694328308" green="0.8549019694328308" blue="0.8549019694328308" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                     <padding>
+                        <Insets left="25.0" />
+                     </padding>
+                  </Button>
+                  <ImageView fitHeight="32.0" fitWidth="43.0" layoutX="10.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8_purchase_order_32px.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Line endX="132.0" startX="-100.0" stroke="#b9a0bf" strokeLineCap="ROUND" strokeType="OUTSIDE">
+               <VBox.margin>
+                  <Insets bottom="15.0" top="20.0" />
+               </VBox.margin>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.8549019694328308" green="0.8549019694328308" blue="0.8549019694328308" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.9019607901573181" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Line>
+            <Group>
+               <children>
+                  <VBox alignment="CENTER" maxHeight="100.0" maxWidth="150.0" minHeight="100.0" minWidth="150.0" prefHeight="94.0" prefWidth="119.0" spacing="10.0" styleClass="aboutBox">
+                     <children>
+                        <Label text="Database Project">
+                           <font>
+                              <Font name="Barlow Condensed Black Italic" size="17.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="15.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#aboutButtonAction" prefHeight="31.0" prefWidth="102.0" style="-fx-border-color: #dadada;" styleClass="sideButtons" text="About">
+                           <font>
+                              <Font name="Gill Sans Ultra Bold Condensed" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <effect>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.8549019694328308" green="0.8549019694328308" blue="0.8549019694328308" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                     <padding>
+                        <Insets top="3.0" />
+                     </padding>
+                  </VBox>
+                  <Circle fill="#f3f3f3" layoutX="76.0" radius="24.0" stroke="WHITE" strokeType="INSIDE">
+                     <effect>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.8549019694328308" green="0.8549019694328308" blue="0.8549019694328308" />
+                           </color>
+                        </DropShadow>
+                     </effect></Circle>
+                  <ImageView fitHeight="46.0" fitWidth="46.0" layoutX="53.0" layoutY="-23.0" pickOnBounds="true" preserveRatio="true">
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                     <image>
+                        <Image url="@../images/Birzeit University2.png" />
+                     </image></ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets right="10.0" />
+               </VBox.margin>
+            </Group>
+            <Label text="© Birziet University">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets right="10.0" top="5.0" />
+               </padding>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.8549019694328308" green="0.8549019694328308" blue="0.8549019694328308" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Label>
+         </children>
+      </VBox>
+      <BorderPane fx:id="centerBorderPane" layoutX="242.0" layoutY="74.0" maxHeight="567.0" maxWidth="774.0" minHeight="495.0" minWidth="622.0" prefHeight="530.0" prefWidth="744.0" styleClass="centerPane">
+         <padding>
+            <Insets bottom="15.0" left="10.0" right="15.0" top="15.0" />
+         </padding>
+      </BorderPane>
+      <Button layoutX="938.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeButtonClicked" prefHeight="23.0" prefWidth="32.0" styleClass="exitButton" text="X" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets bottom="1.0" />
+         </padding>
+      </Button>
+      <HBox alignment="CENTER" layoutX="739.0" layoutY="14.0" prefHeight="24.0" prefWidth="198.0" styleClass="loginsHBox">
+         <children>
+            <ImageView fitHeight="18.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true" styleClass="searchIcon" HBox.hgrow="ALWAYS">
+               <image>
+                  <Image url="@../images/login_32px.png" />
+               </image>
+               <effect>
+                  <Glow />
+               </effect>
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label prefHeight="21.0" prefWidth="126.0" text="EMP:SALESMAN">
+               <font>
+                  <Font name="Barlow Condensed Black Italic" size="15.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" left="5.0" right="2.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets right="2.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="empIDLoggedIn" onMouseClicked="#empIDLabelClicked" prefHeight="24.0" prefWidth="87.0" styleClass="saleIDClicked">
+               <font>
+                  <Font name="Barlow Condensed Bold" size="16.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="3.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="255.0" layoutY="40.0" prefHeight="25.0" prefWidth="180.0" style="-fx-background-color: #FAFAF9; -fx-background-radius: 10px 10px 10px 10px;">
+         <children>
+            <ImageView fitHeight="18.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true" styleClass="searchIcon">
+               <image>
+                  <Image url="@../images/icons8-search-client-32.png" />
+               </image>
+               <effect>
+                  <Glow />
+               </effect>
+            </ImageView>
+            <TextField prefHeight="25.0" prefWidth="101.0" promptText="Search..." style="-fx-background-color: #FAFAF9;" />
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</AnchorPane>
